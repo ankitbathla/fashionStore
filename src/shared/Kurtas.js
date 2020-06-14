@@ -1,10 +1,10 @@
-export const TOPCATEGORIESIMAGES=
+export const KURTAS=
 [
     {
         id:1,
         name:'kurtas',
         carouselid:'1',
-        image: 'assets/images/kurtasimg1.jpg',
+        image: 'assets/images/kurtas.jpg',
         
     },
     {
@@ -22,13 +22,13 @@ export const TOPCATEGORIESIMAGES=
         image: 'assets/images/kurtasimg1.2.jpg',
     },
     {
-        id:3,
+        id:4,
         name:'kurtas',
         carouselid:'1',
         image: 'assets/images/kurtasimg1.3.jpg',        
     },
     {
-        id:4,
+        id:5,
         name:'kurtas',
         carouselid:'2',
         image: 'assets/images/kurtasimg2.jpg',
