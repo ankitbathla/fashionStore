@@ -4,11 +4,11 @@ export const KURTAS=
         id:1,
         name:'kurtas',
         carouselid:'1',
-        image: 'assets/images/kurtas.jpg',
+        image:'/assets/images/kurtas.jpg',
         
     },
     {
-        id:2,
+        id:1,
         name:'kurtas',
         carouselid:'1',
         image: 'assets/images/kurtasimg1.1.jpg',
@@ -16,37 +16,37 @@ export const KURTAS=
 
     },
     {
-        id:3,
+        id:1,
         name:'kurtas',
         carouselid:'1',
         image: 'assets/images/kurtasimg1.2.jpg',
     },
     {
-        id:4,
+        id:1,
         name:'kurtas',
         carouselid:'1',
         image: 'assets/images/kurtasimg1.3.jpg',        
     },
     {
-        id:5,
+        id:1,
         name:'kurtas',
         carouselid:'2',
         image: 'assets/images/kurtasimg2.jpg',
     },
     {
-        id:5,
+        id:1,
         name:'kurtas',
         carouselid:'2',
         image: 'assets/images/kurtasimg2.1.jpg',        
     },
     {
-        id:6,
+        id:1,
         name:'kurtas',
         carouselid:'2',
         image: 'assets/images/kurtasimg2.2.jpg',
     },
     {
-        id:7,
+        id:1,
         name:'kurtas',
         carouselid:'3',
         image: 'assets/images/kurtasimg3.jpg',

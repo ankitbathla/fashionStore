@@ -3,6 +3,7 @@ import { Navbar, NavbarBrand, Alert } from 'reactstrap';
 import  Header from "./headercomponent";
 import { HOMEIMAGES }  from "../shared/homeimages";
 import Home from './homeComponent';
+import Footer from './footercomponent';
 import {Switch, Route,Redirect,withRouter} from 'react-router-dom';
 import Kurtas from './KurtasComponent';
 
@@ -34,6 +35,7 @@ class Main extends Component{
         <Route exact path="/Home" component={()=><Home img={this.state.homeimages}/>}/>
         <Route path="/home/:id" component={Kurtas}/>
           </Switch>
+          <Footer></Footer>
       </div>
         )
     }

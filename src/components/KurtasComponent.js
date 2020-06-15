@@ -46,13 +46,27 @@ class Kurtas extends Component{
               }
 
             })
+
+            const img=this.state.homeimages.map((img)=>{
+                if(this.state.id===img.id)
+                {
+                    return(
+
+                        <Card>
+                    <CardImg src={img.image} />
+                        </Card>
+                    )
+                }
+            })
             return(
                 <div className="container">
                     <div className="row">
                         {photos}
                     </div>
-
-                </div>
+                    <div className="row">
+                        {img}
+                    </div>
+                    </div>
                 
             )
 
