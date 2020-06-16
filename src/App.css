@@ -31,3 +31,19 @@ address{
   width: 400px;
   height: 1000px;
 }
+.embed-responsive.resizecardimg{
+  object-fit: cover;
+}
+.cardresize{
+  width: 40px;
+  height:30px ;
+
+}
+.zoom {
+  padding: 10px;
+  transition: transform .1s; 
+}
+
+.zoom:hover {
+  transform: scale(1.3); 
+}
