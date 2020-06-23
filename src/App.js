@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {BrowserRouter} from 'react-router-dom';
 import Main from "./components/mainComponent";
-
+import {ProductProvider} from './components/context';
 import './App.css';
 
 class App extends Component{
@@ -15,11 +15,13 @@ class App extends Component{
     {
       return(
 
-        <BrowserRouter>
+        <ProductProvider>
+          <BrowserRouter>
     <div className="App">
       <Main />
     </div>
     </BrowserRouter>
+        </ProductProvider>
       )
     }
 }

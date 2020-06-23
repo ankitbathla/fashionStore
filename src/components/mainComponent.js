@@ -5,10 +5,10 @@ import { HOMEIMAGES }  from "../shared/homeimages";
 import Home from './homeComponent';
 import Footer from './footercomponent';
 import Detail from './DetailsComponent';
-import Cart from './CartComponent';
+import Cart from './cart';
 import {Switch, Route,Redirect,withRouter, Router} from 'react-router-dom';
 import Kurtas from './KurtasComponent';
-
+import ModalContainer from './modal';
 
 class Main extends Component{
 
@@ -31,8 +31,11 @@ class Main extends Component{
         return(
 
         <div>
+
         <Header></Header>
+        <ModalContainer></ModalContainer>
         <Switch>
+
         
         <Route exact path="/home" component={()=><Home img={this.state.homeimages}/>}/>
         <Route  exact path="/home/:id" component={Kurtas}/>
@@ -41,7 +44,10 @@ class Main extends Component{
 
 
           </Switch>
+
           <Footer></Footer>
+          
+
       </div>
         )
     }

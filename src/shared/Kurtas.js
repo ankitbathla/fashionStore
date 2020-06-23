@@ -7,11 +7,15 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',
         price:1000,
         navid:1,
+        cartid:1,
         image:'/assets/images/kurtasimg1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
     },
     {
         id:1,
@@ -20,18 +24,22 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',
         price:400,
         navid:2,
+        cartid:2,
         image: '/assets/images/kurtasimg2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
         id:1,
         name:'Libas',
         item:'Kurtas',
-
+        cartid:3,
         description:'Block Print Sraight Kurta',
         price:300,
         navid:3,
@@ -39,14 +47,17 @@ export const KURTAS=
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },  
     {
         id:1,
         name:'Libas',
         item:'Kurtas',
-
+        cartid:4,
         description:'Block Print Sraight Kurta',
         price:1200,
         navid:4,
@@ -54,14 +65,17 @@ export const KURTAS=
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
         id:1,
         name:'Libas',
         item:'Kurtas',
-
+        cartid:5,
         description:'Block Print Sraight Kurta',
         price:1500,
         navid:5,
@@ -69,14 +83,17 @@ export const KURTAS=
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
         id:1,
         name:'Libas',
         item:'Kurtas',
-
+        cartid:6,
         description:'Block Print Sraight Kurta',
         price:1200,
         navid:6,
@@ -84,7 +101,10 @@ export const KURTAS=
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
@@ -92,13 +112,17 @@ export const KURTAS=
         name:'Libas',
         item:'tops',
         navid:1,
+        cartid:7,
         description:'Block Print Sraight Kurta',
         price:1234,
         image: '/assets/images/tops1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
@@ -106,14 +130,17 @@ export const KURTAS=
         name:'Libas',
         item:'tops',
         navid:2,
-
+        cartid:8,
         description:'Block Print Sraight Kurta',
         price:3400,
         image: '/assets/images/tops2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
@@ -121,14 +148,17 @@ export const KURTAS=
         name:'Libas',
         item:'tops',
         navid:3,
-
+        cartid:9,
         description:'Block Print Sraight Kurta',
         price:1235,
         image: '/assets/images/tops3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
@@ -136,14 +166,17 @@ export const KURTAS=
         name:'Libas',
         item:'tops',
         navid:4,
-
+        cartid:10,
         description:'Block Print Sraight Kurta',
         price:2345,
         image: '/assets/images/tops4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
@@ -157,7 +190,10 @@ export const KURTAS=
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -167,11 +203,15 @@ export const KURTAS=
          description:'Block Print Sraight Kurta',
          navid:6,
         price:3456,
+        cartid:11,
         image: '/assets/images/tops6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0         
 
     },
     {
@@ -180,12 +220,18 @@ export const KURTAS=
         item:'menstshirt',
         description:'Block Print Sraight Kurta',
         navid:1,
+        cartid:12,
         price:500,
         image: '/assets/images/menstshirt1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0 
+                
+
 
 
     },
@@ -194,65 +240,85 @@ export const KURTAS=
         name:'Libas',
         item:'menstshirt',
         navid:2,
+        cartid:13,
         description:'Block Print Sraight Kurta',
         price:600,
         image: '/assets/images/menstshirt2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:3,
         name:'Libas',
         item:'menstshirt',
         navid:3,
+        cartid:14,
         description:'Block Print Sraight Kurta',
         price:700,
         image: '/assets/images/menstshirt3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:3,
         name:'Libas',
         item:'menstshirt',
         navid:4,
+        cartid:15,
         description:'Block Print Sraight Kurta',
         price:800,
         image: '/assets/images/menstshirt4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:3,
         name:'Libas',
         item:'menstshirt',
         navid:5,
+        cartid:16,
         description:'Block Print Sraight Kurta',
         price:900,
         image: '/assets/images/menstshirt5.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:3,
         name:'Libas',
         item:'menstshirt',
         navid:6,
+        cartid:17,
         description:'Block Print Sraight Kurta',
         price:1000,
         image: '/assets/images/menstshirt6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -262,11 +328,15 @@ export const KURTAS=
         navid:1,
         description:'Block Print Sraight Kurta',
         price:1100,
+        cartid:18,
         image: '/assets/images/dresses1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -274,65 +344,85 @@ export const KURTAS=
         name:'Libas',
         item:'dresses',
         navid:2,
+        cartid:19,
         description:'Block Print Sraight Kurta',
         price:1200,
         image: '/assets/images/dresses2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:4,
         name:'Libas',
         item:'dresses',
         navid:3,
+        cartid:20,
         description:'Block Print Sraight Kurta',
         price:300,
         image: '/assets/images/dresses3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:4,
         name:'Libas',
         item:'dresses',
         navid:4,
+        cartid:21,
         description:'Block Print Sraight Kurta',
         price:400,
         image: '/assets/images/dresses4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:4,
         name:'Libas',
         item:'dresses',
         navid:5,
+        cartid:22,
         description:'Block Print Sraight Kurta',
         price:500,
         image: '/assets/images/dresses5.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:4,
         name:'Libas',
         item:'dresses',
         navid:6,
+        cartid:23,
         description:'Block Print Sraight Kurta',
         price:120,
         image: '/assets/images/dresses6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -340,13 +430,17 @@ export const KURTAS=
         name:'Libas',
         item:'casualtrousers',
         navid:1,
+        cartid:24,
         description:'Block Print Sraight Kurta',
         price:300,
         image: '/assets/images/casualtrousers1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -354,13 +448,17 @@ export const KURTAS=
         name:'Libas',
         item:'casualtrousers',
         navid:2,
+        cartid:25,
         description:'Block Print Sraight Kurta',
         price:234,
         image: '/assets/images/casualtrousers2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -368,26 +466,34 @@ export const KURTAS=
         name:'Libas',
         item:'casualtrousers',
         navid:3,
+        cartid:26,
         description:'Block Print Sraight Kurta',
         price:456,
         image: '/assets/images/casualtrousers3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:5,
         name:'Libas',
         item:'casualtrousers',
         navid:4,
+        cartid:27,
         description:'Block Print Sraight Kurta',
         price:567,
         image: '/assets/images/casualtrousers4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:5,
@@ -396,24 +502,32 @@ export const KURTAS=
         navid:5,
         description:'Block Print Sraight Kurta',
         price:4567,
+        cartid:28,
         image: '/assets/images/casualtrousers5.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:5,
         name:'Libas',
         item:'casualtrousers',
         navid:6,
+        cartid:29,
         description:'Block Print Sraight Kurta',
         price:7890,
         image: '/assets/images/casualtrousers6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -421,13 +535,17 @@ export const KURTAS=
         name:'Libas',
         item:'casualshirts',
         navid:1,
+        cartid:30,
          description:'Block Print Sraight Kurta',
         price:5678,
         image: '/assets/images/casualshirts1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -435,26 +553,34 @@ export const KURTAS=
         name:'Libas',
         item:'casualshirts',
         navid:2,
+        cartid:31,
         description:'Block Print Sraight Kurta',
         price:8907,
         image: '/assets/images/casualshirts2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:6,
         name:'Libas',
         item:'casualshirts',
         navid:3,
+        cartid:32,
         description:'Block Print Sraight Kurta',
         price:123,
         image: '/assets/images/casualshirts3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:6,
@@ -462,12 +588,16 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',
         item:'casualshirts',
         navid:4,
+        cartid:33,
         price:456,
         image: '/assets/images/casualshirts4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:6,
@@ -475,12 +605,16 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',
         item:'casualshirts',
         navid:5,
+        cartid:34,
         price:567,
         image: '/assets/images/casualshirts5.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:6,
@@ -488,12 +622,16 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',
         item:'casualshirts',
         navid:6,
+        cartid:35,
         price:7890,
         image: '/assets/images/casualshirts6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },
     {
@@ -502,12 +640,16 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',
         item:'casualfootwear',
         navid:1,
+        cartid:36,
         price:567,
         image: '/assets/images/casualfootwear1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },
     {
@@ -516,26 +658,33 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',        
         item:'casualfootwear',
         navid:2,
-
+        cartid:37,
         price:6786,
         image: '/assets/images/casualfootwear2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:7,
         name:'Libas',
         description:'Block Print Sraight Kurta',
         item:'casualfootwear',
+        cartid:38,
         navid:3,
         price:6789,
         image: '/assets/images/casualfootwear3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:7,
@@ -544,22 +693,30 @@ export const KURTAS=
         item:'casualfootwear',
         navid:4,
         price:56789,
+        cartid:39,
         image: '/assets/images/casualfootwear4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
+        inCart: false,
+        count: 0,
+        total: 0
     },{
         id:7,
         name:'Libas',
         description:'Block Print Sraight Kurta',
         item:'casualfootwear',
         navid:5,
+        cartid:40,
         price:129,
         image: '/assets/images/casualfootwear5.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:7,
@@ -568,11 +725,15 @@ export const KURTAS=
         item:'casualfootwear',
         navid:6,
         price:1234,
+        cartid:41,
         image: '/assets/images/casualfootwear6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,  
+        inCart: false,
+        count: 0,
+        total: 0      
 
     },
     {
@@ -582,11 +743,15 @@ export const KURTAS=
         item:'headphones',
         navid:1,
         price:123,
+        cartid:42,
         image: '/assets/images/headphones1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:8,
@@ -595,11 +760,15 @@ export const KURTAS=
         item:'headphones',
         navid:2,
         price:234,
+        cartid:43,
         image: '/assets/images/headphones2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:8,
@@ -608,11 +777,15 @@ export const KURTAS=
         item:'headphones',
         navid:3,
         price:3400,
+        cartid:44,
         image: '/assets/images/headphones3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:8,
@@ -621,11 +794,15 @@ export const KURTAS=
         item:'headphones',
         navid:4,
         price:1300,
+        cartid:45,
         image: '/assets/images/headphones4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:8,
@@ -634,11 +811,15 @@ export const KURTAS=
         item:'headphones',
         navid:5,
         price:1200,
+        cartid:46,
         image: '/assets/images/headphones5.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },{
         id:8,
@@ -647,11 +828,15 @@ export const KURTAS=
         item:'headphones',
         navid:6,
         price:890,
+        cartid:47,
         image: '/assets/images/headphones6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -661,11 +846,15 @@ export const KURTAS=
         item:'makeup',
         navid:1,
         price:950,
+        cartid:48,
         image: '/assets/images/makeup1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },
     {
@@ -675,11 +864,15 @@ export const KURTAS=
         item:'makeup',
         navid:2,
         price:900,
+        cartid:49,
         image: '/assets/images/makeup2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,  
+        inCart: false,
+        count: 0,
+        total: 0      
 
     },{
         id:9,
@@ -687,11 +880,15 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',
         price:800,
         navid:3,
+        cartid:50,
         image: '/assets/images/makeup3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,   
+        inCart: false,
+        count: 0,
+        total: 0     
 
     },{
         id:9,
@@ -700,11 +897,15 @@ export const KURTAS=
         item:'makeup',
         navid:4,
         price:700,
+        cartid:51,
         image: '/assets/images/makeup4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,   
+        inCart: false,
+        count: 0,
+        total: 0     
 
     },{
         id:9,
@@ -713,11 +914,15 @@ export const KURTAS=
         item:'makeup',
         navid:5,
         price:500,
+        cartid:52,
         image: '/assets/images/makeup5.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },{
         id:9,
@@ -726,11 +931,15 @@ export const KURTAS=
         item:'makeup',
         navid:6,
         price:1000,
+        cartid:53,
         image: '/assets/images/makeup6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -740,11 +949,15 @@ export const KURTAS=
         item:'sportshoes',
         navid:1,
         price:456,
+        cartid:54,
         image: '/assets/images/sportshoes1.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },
     {
@@ -753,13 +966,16 @@ export const KURTAS=
         description:'Block Print Sraight Kurta',
         item:'sportshoes',
         navid:2,
-
+        cartid:55,
         price:569,
         image: '/assets/images/sportshoes2.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,  
+        inCart: false,
+        count: 0,
+        total: 0      
 
     },
     {
@@ -769,11 +985,15 @@ export const KURTAS=
         item:'sportshoes',
         navid:3,
         price:459,
+        cartid:56,
         image: '/assets/images/sportshoes3.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0        
 
     },
     {
@@ -783,11 +1003,15 @@ export const KURTAS=
         item:'sportshoes',
         navid:4,
         price:460,
+        cartid:57,
         image: '/assets/images/sportshoes4.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
 
     },
@@ -798,11 +1022,15 @@ export const KURTAS=
         item:'sportshoes',
         navid:5,
         price:350,
+        cartid:58,
         image: '/assets/images/sportshoes5.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1, 
+        inCart: false,
+        count: 0,
+        total: 0       
 
     },
     {
@@ -812,19 +1040,34 @@ export const KURTAS=
         item:'sportshoes',
         navid:6,
         price:450,
+        cartid:59,
+        inCart:false,
         image: '/assets/images/sportshoes6.jpg',
         info:'100% Original Product Free Delivery on order above Rs. 799',
         info1:'Pay on delivery might be available Easy 30 days returns and',
         info2:'exchangesTry & Buy might be available',
-        units:1,        
+        units:1,  
+        inCart: false,
+        count: 0,
+        total: 0      
 
     },
+];
+export const detailProduct = {
+    id:1,
+        item:'Kurtas',
+        name:'Libas',
+        description:'Block Print Sraight Kurta',
+        price:1000,
+        navid:1,
+        cartid:1,
+        image:'/assets/images/kurtasimg1.jpg',
+        info:'100% Original Product Free Delivery on order above Rs. 799',
+        info1:'Pay on delivery might be available Easy 30 days returns and',
+        info2:'exchangesTry & Buy might be available',
+        units:1,
+        inCart: false,
+        count: 0,
+        total: 0
 
-
-
-
-
-    
-    
-
-]
+}
